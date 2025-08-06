@@ -1,0 +1,36 @@
+1. if a person is eligible to vote
+Ans:
+age = int(input("Enter the age of the person: "))
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("not eligible")
+
+
+
+
+2. The number should be a positive and even number.
+Ans:
+num = int(input("Enter the numbers: "))
+if num > 0 and num % 2==0:
+    print("The number is positive and even number")
+else:
+    print("The number is not positive or even number")
+
+
+
+
+
+3. Find largest of three numbers.
+Ans:
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+if (a>b and a>c):
+    print("a is greater")
+elif(b>a and b>c):
+    print("b is greater")
+elif(c>a and c>b):
+    print("c is greater")
+else:
+    ("none is greater")

@@ -23,3 +23,9 @@ n= 6
 Hint: Check pattern 13 and think in terms of using count.
 
 SOLUTION:
+n = int(input("Enter number of rows: "))
+
+for i in range(1, n + 1):
+    for j in range(i):
+        print(i, end=" ")
+    print()

@@ -1,3 +1,5 @@
+To print the last digit alone
+
 n = int(input("Enter number:"))
 print(n%10)
 
